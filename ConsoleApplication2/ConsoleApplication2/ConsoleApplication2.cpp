@@ -130,12 +130,6 @@ int _tmain(int argc, _TCHAR* argv[])
 						a[i][j+n] = a[i][j];//在原矩阵右面补一个相同的矩阵
 					}
 					ans = a[0][0];
-					for (i = 0; i < m; i++)
-					{
-						for (j = 0; j < n * 2; j++)
-							printf("%d ", a[i][j]);
-							printf("\n");
-					}
 					for (k = 0; k < n*2; k++)
 					{
 						for (i = 0; i < m; i++)
